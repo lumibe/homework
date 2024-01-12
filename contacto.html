@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width inicial-scale=1.0">
+        <title>Mi primera página web</title>
+    </head>
+    <body>
+        <header>
+            <h1>Este es el formulario de contacto</h1>
+        </header>        
+        <main>           
+            <div>
+                <h2>Formulario de contacto</h2>
+                <p>Para contactarnos, por favor ingresa los datos en el formulario, recuerda que debes colocar toda la información, de lo contrario no podemos responderte como se debe. Gracias.</p>
+            </div>
+            <form method="POST"><!--si se coloca GET o se omite, los datos se verán en la url,OJO -->
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre"/>
+                </div>
+                <div>
+                    <input type="text" name="apellido" placeholder="Apellidos" />
+                </div>
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad"/>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Contraseña" />
+                </div>
+                 <div>
+                    <button>Enviar datos</button>
+                </div>
+            </form>
+        </main> 
+    </body>
+</html>
