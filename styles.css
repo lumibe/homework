@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8ed8e;
+    color: #333;
+    margin: 20px;
+  }
+  #image{
+    border: solid  #e81515;
+    margin: auto;
+    padding: 1em;
+    width: 39%;
+    align-content: center;
+  }
+  .subtitles{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: blueviolet;
+  }
+  #menu{
+    margin: auto;
+    padding: 1em;
+    width: 39%;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
